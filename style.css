@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(47, 88%, 63%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid hsl(0, 0%, 50%);
+    box-shadow: 8px 8px 8px hsl(0, 0%, 7%);
+}
+.image{
+    width: 300px;
+    border-radius: 8px;
+}
+.button{
+    margin-bottom: 1rem;
+    font-family: Figtree;
+    font-size: 16px;
+}
+.btn{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    margin-top: 6px;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.first{
+    margin-top: 6px;
+    font-size: 12px;
+}
+.page{
+    margin: none;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(47, 88%, 63%);
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.second{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-bottom: 1rem;
+}
+.content{
+   display: flex;
+   align-items: center;  
+}
+.icon{
+   padding-right: 2px;
+   width: 25px;
+}
+.third{
+   padding-left: 4px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 14px;
+}
+
+@media (max-width: 375px){
+    .card{
+        background-color: white;
+        padding: 16px;
+        border-radius: 16px;
+        border: 1px solid hsl(0, 0%, 50%);
+        box-shadow: 8px 8px 8px hsl(0, 0%, 7%);
+    }
+    .image{
+        width: 300px;
+        border-radius: 8px;
+    }
+    .button{
+        margin-bottom: 1rem;
+        font-family: Figtree;
+        font-size: 16px;
+    }
+    .btn{
+        background-color: hsl(47, 88%, 63%);
+        border: none;
+        margin-top: 6px;
+        padding: 4px 8px;
+        border-radius: 2px;
+        font-weight: bold;
+    }
+    .first{
+        margin-top: 6px;
+        font-size: 12px;
+    }
+    .page{
+        margin: none;
+    }
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        font-size: 20px;
+    }
+    .second{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        opacity: 0.6;
+        margin-bottom: 1rem;
+    }
+    .content{
+       display: flex;
+       align-items: center;  
+    }
+    .icon{
+       padding-right: 2px;
+       width: 25px;
+    }
+    .third{
+       padding-left: 4px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 14px;
+    }
+}
+
